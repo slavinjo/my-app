@@ -1,3 +1,3 @@
-const ComponentWrapper = (props) => props.children;
+const ComponentWrapper = props => props.children;
 
 export default ComponentWrapper;

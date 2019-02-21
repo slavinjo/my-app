@@ -1,11 +1,11 @@
 import React from 'react';
 
 import ComponentWrapper from '../hoc/ComponentWrapper';
-import classes from './Layout.module.css';
+import classes from '../css/Layout.module.css';
 
 const Layout = ( props ) => (
     <ComponentWrapper>
-        <div>Toolbar, SideDrawer, Backdrop</div>
+        <>Toolbar, SideDrawer, Backdrop</>
         <main className={classes.Content}>
             {props.children}
         </main>
