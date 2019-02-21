@@ -7,7 +7,7 @@ class App extends Component {
     return (
       <Fragment>
         <Layout>
-          <p>Tes fdsfsd t</p>
+          <p>Testic</p>
         </Layout>
       </Fragment>
     );
