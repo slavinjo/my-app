@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from "react";
-import Sidebar from "../src/Layout/Sidebar";
+import Sidebar from "../src/components/layout/Sidebar";
 import Layout from "../src/components/layout/Layout";
 import Header from "./components/layout/Header";
 
@@ -8,8 +8,8 @@ class App extends Component {
     return (
       <Fragment>
         <Layout>
-          <Header />
-          <p>Testic</p>
+          <Sidebar />
+          <Header title="naslov" />
         </Layout>
       </Fragment>
     );
