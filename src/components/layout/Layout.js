@@ -5,7 +5,6 @@ import classes from "../../css/Layout.module.css";
 
 const Layout = props => (
   <ComponentWrapper>
-    <>SideDrawer, Backdrop</>
     <main className={classes.Content}>{props.children}</main>
   </ComponentWrapper>
 );

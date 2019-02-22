@@ -5,11 +5,20 @@ import Header from "./components/layout/Header";
 
 class App extends Component {
   render() {
+    const divStyle = {
+      margin: '100px',
+      border: '5px solid pink',
+      display:'inline',
+      background: 'lightblue no-repeat fixed center', 
+      position:'absolute'
+    };
+
     return (
       <Fragment>
         <Layout>
           <Sidebar />
           <Header title="naslov" />
+          <h3 style={divStyle}>zezezeze</h3>
         </Layout>
       </Fragment>
     );
