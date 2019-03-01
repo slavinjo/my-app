@@ -18,7 +18,7 @@ class App extends Component {
         <Layout>
           <Sidebar />
           <Header title="naslov" />
-          <h3 style={divStyle}>zezezeze</h3>
+          
         </Layout>
       </Fragment>
     );
